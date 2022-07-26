@@ -123,7 +123,7 @@ const SignUp = () => {
                 icon={<AccountCircle />}
                 value={formSignUp.names}
                 label='Noms'
-                pl={"eg. ASIFIWE BRENDAN "}
+                pl={"VANZIRWE Claudette"}
                 fnOnChange={(e: any) =>
                   setFormSignUp({ ...formSignUp, names: e.target.value })
                 }
@@ -132,7 +132,7 @@ const SignUp = () => {
                 icon={<EmailIcon />}
                 value={formSignUp.email}
                 label='Email'
-                pl={"eg. brendan@gmail.com"}
+                pl={"exemple@gmail.com"}
                 fnOnChange={(e: any) =>
                   setFormSignUp({ ...formSignUp, email: e.target.value })
                 }
@@ -141,7 +141,7 @@ const SignUp = () => {
                 icon={<EmailIcon />}
                 value={formSignUp.phone}
                 label='phone'
-                pl={"eg. 0998799308"}
+                pl={"0998799308"}
                 fnOnChange={(e: any) =>
                   setFormSignUp({ ...formSignUp, phone: e.target.value })
                 }
@@ -153,7 +153,7 @@ const SignUp = () => {
                 value={formSignUp.password}
                 isPwd={true}
                 label='Mot de pass'
-                pl={"8 carac. ou plus avec Maj."}
+                pl={"8 caracacteres ou plus avec majuscule."}
                 fnOnChange={(e: any) =>
                   setFormSignUp({ ...formSignUp, password: e.target.value })
                 }
@@ -162,7 +162,7 @@ const SignUp = () => {
                 icon={<LockIcon />}
                 value={formSignUp.confirmPassword}
                 isPwd={true}
-                label='Repeter le mot de passe'
+                label='Confirmer le mot de passe'
                 fnOnChange={(e: any) =>
                   setFormSignUp({
                     ...formSignUp,

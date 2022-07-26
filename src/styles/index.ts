@@ -1,7 +1,7 @@
 export const styleTheme: { colors: any; borderColors: any } = {
   colors: {
-    blueDark: " #f5781a", // CAN CHANGE
-    blueLight: "   rgb(207, 104, 7)", // CAN CHANGE
+    blueDark: " rgb(27, 105, 236)", // CAN CHANGE  #f5781a
+    blueLight: "   rgb(175, 202, 227)", // CAN CHANGE (207, 104, 7)
     grayLight: "gray",
     grayDark: " rgba(0, 0, 0, 0.05)",
     white: "white",

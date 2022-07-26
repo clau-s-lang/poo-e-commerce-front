@@ -15,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginUserTypes } from "../store/types/userTypes";
 import ContactPhoneIcon from "@material-ui/icons/ContactPhone";
 import { featureNoSupported } from "../services/functions";
+import AccessAlarmsIcon from '@material-ui/icons/AccessAlarms';
 interface IPorps {
   height?: string;
 }
@@ -151,7 +152,7 @@ const SignIn = ({ height }: IPorps) => {
               <Button
                 textBtn='Connexion'
                 display='block'
-                styleBtn={"btnPrimary"}
+                styleBtn={"btnPrimaryCircle"}
                 actionTo={() => handleSubmit()}
                 iconRightBtn={<PlayArrowIcon />}
                 isLoadingInfo={currentUser.isLoadingInfo}
